@@ -1,0 +1,193 @@
+@media screen and (max-width:1024px){
+    .appointmentsetup p{
+        font-size: 14px;
+    }
+    .servicesoptions input[type="checkbox"]{
+        transform: scale(1.5);
+    }
+}
+@media screen and (max-width: 991px) {
+    .appointmentlistcontainer img
+{
+    width: 30%;
+}
+    .dashboardoptions{
+        grid-template-columns:unset !important;
+        flex-direction: column;
+    }
+    #content{
+        width: 100%;
+    left: 0;
+    }
+    #sidebar{
+        display: none;
+    }
+    #content nav::before{
+        display: none;
+    }
+    #mobilenav{
+        display: block;
+    }
+    #sidebar.hide ~ #content {
+        width: unset;
+        left: 0;
+    }
+    #mobilenavburger{
+        display: inline-block;
+    }
+    #content nav .bx.bx-menu{
+        display: none;
+    }
+    #mobilenav .side-menu li a {
+        font-family: var(--poppins);
+    }
+    #setappointmentcontainer{
+        flex-direction: column;
+    }
+    #appointmentsviewrecords{
+        flex-direction: column !important;
+    }
+    #setappointmentcontainer > div,
+    #appointmentsviewrecords > div
+    {
+        width:100% !important;
+    }
+    #calendar.wrapper{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    #setappointmentcontainer .container{
+        border-top-right-radius: 0 !important;
+        border-top-left-radius: 0 !important; 
+    }
+    #content main .container{
+        width: 100%;
+    }
+    #servicescontainerbuttons > div{
+        width:calc(25% - 20px);
+    }
+   
+   
+}
+@media screen and (max-width: 767px) {
+    #servicescontainerbuttons > div{
+        width:calc(33.33% - 20px);
+    }
+    #servicescontainerbuttons > div label{
+        font-size: 14px;
+    }
+    .dentistlist table td,
+    #dentistlist td{
+        font-size: 14px;
+    }
+    #myappointments td,#myappointments .btn{
+        font-size: 14px;
+    }
+    #viewappointmentmodal p{
+        font-size: 14px;
+    }
+    .dialog-ovelay .dialog .dialog-msg p,.dialog-ovelay .dialog header h3{
+        font-size: 16px;
+    }
+    .profileedit{
+        width: 100%;
+    }
+    #allappointmentstable td{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 577px) {
+    #myappointments td:last-child{
+        flex-direction: column;
+    }
+    .servicesoptions > div{
+        width:100%;
+    }
+    .appointmentsetup > div:last-child{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .appointmentsetup .button{width:100%;flex-wrap: wrap;}
+    .appointmentsetup .button #captcha{
+        width: 100%;
+    }
+    #adddentistform .card-details,
+    #deldentist .card-details
+    #dentistedit .card-details,
+    #addstaffform .card-details,
+    #staffdel .card-details,
+    #staffedit .card-details,
+    #staffaddservices .card-details,
+    #staffaddpatient .card-details,
+    #staffdeletepatient .card-details,
+    #staffpatientedit .card-details{
+        flex-direction: column;
+    }
+    #adddentistform .card-details > div,
+    #deldentist .card-details > div,
+    #dentistedit .card-details > div,
+    #addstaffform .card-details > div,
+    #staffdel .card-details > div,
+    #staffedit .card-details > div,
+    #staffaddservices .card-details > div,
+    #staffaddpatient .card-details > div,
+    #staffdeletepatient .card-details > div,
+    #staffpatientedit .card-details > div{
+        width: 100%;
+    }
+    .dentistlist table td,
+    #allappointments table td{
+        font-size: 12px; 
+    }
+   
+   
+    .servicestable td{
+        font-size: 12px;
+    }
+    .dentistlist table td:last-child{
+        display: flex;
+        flex-direction: column;
+    }
+    .dentistlist table td:last-child a{
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding: 15px !important;
+        max-width: 50px !important;
+        margin: 0 !important;
+    }
+    #servicescontainerbuttons > div{
+        width:calc(50% - 20px);
+    }
+    .generating{
+        flex-direction: column;
+        gap:10px;
+    }
+    .generatereport {
+        display: flex;
+        justify-content: center;
+       max-width: 150px;
+    }
+    #rangecontainer input[type=date], #monthrangecontainer input[type=date],#monthfrom, #monthto{
+        font-size:16px;
+    }
+    #staffeditservices .card-details .card-box{
+        width: 100% !important;
+    }
+   #allappointmentstable tbody tr td:last-child{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+   }
+   #allappointmentstable tbody tr td:last-child a{
+    width: 20%;
+    height: 25px;
+   }
+   .sendemail{
+    margin-left: 0;
+   }
+   #content main .table-data .order #allappointmentstable tr td .button-delete{
+    margin-left: 0;
+   }
+
+}
